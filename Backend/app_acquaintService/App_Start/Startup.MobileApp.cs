@@ -32,7 +32,7 @@ namespace Acquaint.Service
             // Use Entity Framework Code First to create database tables based on your DbContext
             Database.SetInitializer(new AcquaintServiceInitializer());
 
-            // To prevent Entity Framework from modifying your database schema, use a null database initializer
+            // To prevent Entity Framework from modifying your database schema,
             // Database.SetInitializer<app_acquaintContext>(null);
 
             MobileAppSettingsDictionary settings = config.GetMobileAppSettingsProvider().GetMobileAppSettings();
